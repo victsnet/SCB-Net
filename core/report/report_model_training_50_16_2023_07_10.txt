@@ -1,0 +1,8 @@
+====================== MODEL TRAINING - SPATIAL INTERPOLATION ================= 
+
+Epoch 1: 
+Loss: 1.9651 | Val_loss: 0.5441 |
+acc: 0.5810 | Val_acc: 0.4732.
+Learning rate: 5.00e-05.
+Batch size: 16.
+Running time: 0.50min.
