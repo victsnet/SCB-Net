@@ -10,3 +10,7 @@ Spatially Constrained Bayesian Network (SCB-Net): An Approach to Obtaining Field
 [Link to Remotely Sensed Data and Probability Masks](https://drive.google.com/drive/folders/1QaHrmGukgPDGtaSnRjhIaAR-VoPHgFc8?usp=sharing)
 
 Authors: Victor S. Santos, Erwan Gloaguen, and Shiva Tirdad.
+
+### License
+
+This project is licensed under the [Creative Commons Attribution 4.0 International License](LICENSE) - see the [LICENSE](LICENSE) file for details.
