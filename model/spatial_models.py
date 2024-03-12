@@ -258,11 +258,12 @@ class Spatial_interp2d:
         if self.pretrained_encoder is not None:
             num_filters *= 2 
         tf.print(f'---- {suffix} ----')
-        vgg_layer_name = 'block1_conv2'
+        vgg_layer_name_1 = 'block1_conv2'
         for i in range(n_blocks):            
             if i > 0:
                     num_filters = n_filters*(2**i)
-                    vgg_layer_name = 'block' + str(i+1) + '_conv1'
+                    vgg_layer_name_1 = 'block' + str(i+1) + '_conv1'
+                    vgg_layer_name_2 = 'block' + str(i+1) + '_conv2'
                     
             # conv block - residual + attention
             if self.pretrained_encoder is None:
@@ -271,7 +272,11 @@ class Spatial_interp2d:
             # VGG19 encoder
             else:
                 encoder_output = Conv2D(num_filters, (1, 1), padding='same', activation='relu')(encoder_output)
-                encoder_output = self.vgg.get_layer(vgg_layer_name)(encoder_output)
+                encoder_output = self.vgg.get_layer(vgg_layer_name_1)(encoder_output)
+                encoder_output = BatchNormalization()(encoder_output)
+                encoder_output = Activation(activation)(encoder_output)
+                if i > 0:
+                    encoder_output = self.vgg.get_layer(vgg_layer_name_2)(encoder_output)
                 encoder_output = BatchNormalization()(encoder_output)
                 encoder_output = Activation(activation)(encoder_output)
             
@@ -334,7 +339,8 @@ class Spatial_interp2d:
                                             multiscale=False, use_dropout=False, residual=True, name='spatial_info') 
         input_concat = concatenate([self.x_spatial, x])
         
-        interp_output = self.enc_dec_block(input_concat, n_filters, n_blocks=self.n_blocks[1], multiscale=self.multiscale, use_dropout=False,
+        interp_output = self.enc_dec_block(input_concat, n_filters, n_blocks=self.n_blocks[1], 
+                                           multiscale=self.multiscale, use_dropout=False,
                                                   suffix='two', Pool_layer=AveragePooling2D)
         
 
@@ -345,7 +351,8 @@ class Spatial_interp2d:
 
         return output
     
-    def unet_model(self, dim, n_filters, n_blocks=3, batch_norm=True, multiscale=False, pretrained_encoder=None, encoder_freeze=False, activation='softmax'):
+    def unet_model(self, dim, n_filters, n_blocks=3, batch_norm=True, multiscale=False, pretrained_encoder=None,
+                   encoder_freeze=False, activation='softmax'):
         
         features = Input(dim)
         coord_channels = 0
