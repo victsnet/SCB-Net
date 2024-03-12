@@ -1,2 +1,0 @@
-====================== MODEL TRAINING - SPATIAL INTERPOLATION ================= 
-
