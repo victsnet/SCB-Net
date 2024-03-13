@@ -12,6 +12,7 @@ Spatially Constrained Bayesian Network (SCB-Net): An Approach to Obtaining Field
 Authors: Victor S. Santos (INRS & NRCan), Erwan Gloaguen (INRS), and Shiva Tirdad (NRCan).
 
 INRS: Institut National de la Recherche Scientifique
+
 NRCan: Natural Resources Canada
 
 ### License
