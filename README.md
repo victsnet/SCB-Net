@@ -5,7 +5,7 @@ Spatially Constrained Bayesian Network (SCB-Net): An Approach to Obtaining Field
 ## Predictive Lithological Map displaying 16 lithologic units 
 
 ![output](https://github.com/victsnet/SCB-Net/assets/53713685/81b74534-f222-4854-8d4e-ff265c06011d)
-### (instability = uncertain predicted locations)
+### (instability = uncertain predictions)
 
 [Link to remotely sensed data, probability masks, and weights of the models.](https://drive.google.com/drive/folders/1XKIUqlInuHOdva_IWbaQ_Ynezm4p_Fcd?usp=drive_link)
 
