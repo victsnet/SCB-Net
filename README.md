@@ -7,7 +7,7 @@ Spatially Constrained Bayesian Network (SCB-Net): An Approach to Obtaining Field
 ![output](https://github.com/victsnet/SCB-Net/assets/53713685/81b74534-f222-4854-8d4e-ff265c06011d)
 ### (instability = uncertain predicted locations)
 
-[Link to Remotely Sensed Data and Probability Masks](https://drive.google.com/drive/folders/1QaHrmGukgPDGtaSnRjhIaAR-VoPHgFc8?usp=sharing)
+[Link to Remotely Sensed Data and Probability Masks](https://drive.google.com/drive/folders/1XKIUqlInuHOdva_IWbaQ_Ynezm4p_Fcd?usp=drive_link)
 
 Authors: Victor S. Santos (INRS & NRCan), Erwan Gloaguen (INRS), and Shiva Tirdad (NRCan).
 
