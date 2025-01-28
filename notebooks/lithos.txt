@@ -1,0 +1,1049 @@
+CODE,ROCHE
+
+A1,Paléosol
+
+A2A4,Latérite nickelifère
+
+A2,Régolite/paléorégolite
+
+A2A3,Latérite ferrifère
+
+A2A2,Latérite manganifère
+
+A2A1,Bauxite
+
+A2B,Saprolite
+
+A2A,Latérite
+
+A3,Chapeau de fer
+
+A4D,Surface encroutée oxydée
+
+A4,Surface encroutée ("duricrust")
+
+A4A2,Dolocrète
+
+A4A4,Karst
+
+A4A,Surface encroutée carbonatée
+
+A4C1,Silcrète
+
+A4B1,Gypcrète
+
+A4C,Surface encroutée siliceuse
+
+A4B,Surface encroutée à sulfate/sulfure
+
+A4A1,Calcrète (caliche)
+
+A4A3,Tuf/travertin
+
+A4D1,Ferricrète
+
+A4D2,Manganocrète
+
+A,Altérites
+
+F1,Sulfures massifs (sulfures > 65 %)
+
+F2,Sulfures semi-massifs (35 % < sulfures > 65%)
+
+F,Roches riches en sulfures
+
+I1A,Granite à feldspath alcalin
+
+I1S,Granodiorite à hypersthène (opdalite)
+
+I1M,Monzogranite
+
+I1T,Tonalite à hypersthène (enderbite)
+
+I1D,Tonalite
+
+I1L,Syénogranite
+
+I1P,Granite à hypersthène (charnockite)
+
+I1H,Granophyre
+
+I1O,Granite à feldspath alcalin avec hypersthène
+
+I1Q,Syénogranite à hypersthène
+
+I1,Roches intrusives felsiques
+
+I1C,Granodiorite
+
+I1E,Trondhjémite (MF <10 %)
+
+I1J,Quartzolite (silexite)
+
+I1N,Filon/veine de quartz
+
+I1B,Granite
+
+I1G,Pegmatite
+
+I1I,Granitoïde riche en quartz
+
+I1R,Monzogranite à hypersthène (farsundite)
+
+I1K,Alaskite (MF <10 %)
+
+I2C,Syénite quartzifère
+
+I2N,Syénite à hypersthène
+
+I2P,Monzodiorite à hypersthène (jotunite)
+
+I2A,Syénite quartzifère à feldspath alcalin
+
+I2DF,Syénite foïdique
+
+I2DR,Syénite foïdifère
+
+I2G,Monzodiorite quartzifère
+
+I2F,Monzonite
+
+I2O,Monzonite à hypersthène (mangérite)
+
+I2B,Syénite à feldspath alcalin
+
+I2BR,Syénite foïdifère à feldspath alcalin
+
+I2H,Monzodiorite
+
+I2I,Diorite quartzifère
+
+I2JF,Diorite foïdique
+
+I2FR,Monzonite foïdifère
+
+I2KF,Monzosyénite foïdique
+
+I2,Roches intrusives intermédiaires
+
+I2E,Monzonite quartzifère
+
+I2J,Diorite
+
+I2JR,Diorite foïdifère
+
+I2K,Monzosyénite
+
+I2D,Syénite
+
+I2HF,Monzodiorite foïdique
+
+I2M,Syénite à feldspath alcalin avec hypersthène
+
+I2HR,Monzodiorite foïdifère
+
+I2Q,Diorite à hypersthène
+
+I3R,Gabbronorite à olivine
+
+I3AF,Gabbro foïdique
+
+I3M,Diabase à olivine (OV > 5%)
+
+I3O,Lamprophyre mafique
+
+I3OV,Vogésite
+
+I3CF,Monzogabbro foïdique
+
+I3OK,Kersantite
+
+I3Q,Gabbronorite
+
+I3A,Gabbro
+
+I3B,Diabase
+
+I3CR,Monzogabbro foïdifère
+
+I3I,Gabbro anorthositique
+
+I3L,Norite à olivine
+
+I3S,Monzonorite
+
+I3E,Gabbro quartzifère (QZ > 5%)
+
+I3F,Diabase quartzifère (QZ > 5%)
+
+I3G,Anorthosite
+
+I3GQ,Anorthosite quartzifère
+
+I3H,Anorthosite gabbroïque
+
+I3K,Gabbro à olivine
+
+I3T,Anorthosite à hypersthène
+
+I3,Roches intrusives mafiques
+
+I3AR,Gabbro foïdifère
+
+I3C,Monzogabbro
+
+I3D,Ferrogabrro
+
+I3N,Troctolite
+
+I3CQ,Monzogabbro quartzifère
+
+I3OM,Minette
+
+
+ 
+
+
+I3OS,Spessartite
+
+I3GR,Anorthosite foïdifère
+
+I3J,Norite
+
+I3P,Leuconorite
+
+I4A,Hornblendite
+
+I4ZU,Cumberlandite
+
+I4QC,Calciocarbonatite
+
+I4OK,Aillikite
+
+I4S,Foïdolite
+
+I4QS,Silicocarbonatite
+
+I4ZR,Rutilite
+
+I4OM,Monchiquite
+
+I4OP,Polzénite
+
+I4P,Kimberlite
+
+I4ZN,Nelsonite
+
+I4,Roches intrusives ultramafiques/ultrabasiques
+
+I4QM,Magnésiocarbonatite
+
+I4SM,Meltéigite
+
+I4B,Pyroxénite
+
+I4J,Wehrlite
+
+I4K,Lherzolite
+
+I4M,Dunite
+
+I4OS,Sannaïte
+
+I4R,Lamproïte
+
+I4T,Mélilitolite
+
+I4F,Clinopyroxénite à olivine
+
+I4SU,Urtite
+
+I4ZC,Chromitite
+
+I4ZI,Ilménitite
+
+I4ZM,Magnétitite
+
+I4C,Clinopyroxénite
+
+I4G,Webstérite à olivine
+
+I4I,Péridotite
+
+I4L,Harzburgite
+
+I4OA,Alnoïte
+
+I4OC,Camptonite
+
+I4PB,Kimberlite (groupe II)
+
+I4SI,Ijolite
+
+I4ZK,Minerai de fer de type Kiruna
+
+I4D,Webstérite
+
+I4E,Orthopyroxénite
+
+I4H,Orthopyroxénite à olivine
+
+I4QF,Ferrocarbonatite
+
+I4X,Glimmérite
+
+I4O,Lamprophyre ultramafique
+
+I4Q,Carbonatite
+
+I4Z,Roche ultramafique à >90 % des minéraux oxydés
+
+I4PA,Kimberlite (groupe I)
+
+I,Roches ignées
+
+M1,Gneiss
+
+M2,Gneiss rubané
+
+M3,Orthogneiss
+
+M4,Paragneiss
+
+M5,Gneiss quartzofeldspathique
+
+M6,Gneiss granitique
+
+M7,Granulite (gneiss granulitique)
+
+M8,Schiste
+
+M9,Orthoschiste
+
+M10,Paraschiste
+
+M11,Phyllade
+
+M12,Quartzite
+
+M13,Marbre (calcaire cristallin)
+
+M14,Roche calcosilicatée
+
+M15,Roche métasomatique (incluant skarn et tactite)
+
+M15B,Rodingite
+
+M15E,Greisen
+
+M15D,Fénite
+
+M15C,Listwaénite
+
+M15G,Grenatite (>30% de GR)
+
+M15A,Skarn
+
+M16,Amphibolite
+
+M17,Éclogite
+
+M18,Cornéenne
+
+M20,Métatexite
+
+M21A,Granite d'anatexie
+
+M21,Diatexite
+
+M22,Migmatite
+
+M23,Agmatite
+
+M24,Cataclasite
+
+M25,Mylonite
+
+M26,Brèche tectonique
+
+M30,Tourmalinite
+
+M31,Coticule
+
+M32,Serpentinite
+
+M33,Stéatite
+
+M,Roches métamorphiques
+
+R1,Veine
+
+R1B,Veine de tension/extension
+
+R1A,Veine de cisaillement «shear vein»
+
+R1D,Veine de selle/ensellement («saddle reef»)
+
+R1C,Veine en échelle («ladder vein»)
+
+R2,Stockwerk
+
+R3,Brèche
+
+R4,Porosité
+
+R9,Autres
+
+R,Remplissage
+
+S1A2,Grès quartzitique (grain fin)
+
+S1C4,Arkose (grain grossier)
+
+S1A4,Grès quartzitique (grain grossier)
+
+S1B2,Grès feldspathique (grain fin)
+
+S1E3,Grès lithique (grain moyen)
+
+S1,Grès
+
+S1B4,Grès feldspathique (grain grossier)
+
+S1C,Arkose
+
+S1E,Grès lithique
+
+S1E2,Grès lithique (grain fin)
+
+S1F2,Grès lithique subfeldspathique (grain fin)
+
+S1A3,Grès quartzitique (grain moyen)
+
+S1A5,Grès quartzitique (grain très grossier)
+
+S1B1,Grès feldspathique (grain très fin)
+
+S1C3,Arkose (grain moyen)
+
+S1C5,Arkose (grain très grossier)
+
+S1E4,Grès lithique (grain grossier)
+
+S1E5,Grès lithique (grain très grossier)
+
+S1F,Grès lithique subfeldspathique
+
+S1C1,Arkose (grain très fin)
+
+S1F4,Grès lithique subfeldspathique (grain grossier)
+
+S1A,Grès quartzitique
+
+S1A1,Grès quartzitique (grain très fin)
+
+S1C2,Arkose (grain fin)
+
+S1D2,Grès arkosique (grain fin)
+
+S1D5,Grès arkosique (grain très grossier)
+
+S1D1,Grès arkosique (grain très fin)
+
+S1D3,Grès arkosique (grain moyen)
+
+S1E1,Grès lithique (grain très fin)
+
+S1F3,Grès lithique subfeldspathique (grain moyen)
+
+S1F5,Grès lithique subfeldspathique (grain très grossier)
+
+S1B,Grès feldspathique
+
+S1B3,Grès feldspathique (grain moyen)
+
+S1B5,Grès feldspathique (grain très grossier)
+
+S1D,Grès arkosique
+
+S1D4,Grès arkosique (grain grossier)
+
+S1F1,Grès lithique subfeldspathique (grain très fin)
+
+S2C4,Arkose (grain grossier)
+
+S2E5,Arénite lithique (grain très grossier)
+
+S2F3,Sublitharénite (grain moyen)
+
+S2B3,Subarkose (grain moyen)
+
+S2D3,Arénite arkosique (grain moyen)
+
+S2F2,Sublitharénite (grain fin)
+
+S2E4,Arénite lithique (grain grossier)
+
+S2E,Arénite lithique
+
+S2D,Arénite arkosique
+
+S2B5,Subarkose (grain très grossier)
+
+S2A3,Arénite quartzitique (grain moyen)
+
+S2C3,Arkose (grain moyen)
+
+S2A4,Arénite quartzitique (grain grossier)
+
+S2A5,Arénite quartzitique (grain très grossier)
+
+S2D1,Arénite arkosique (grain très fin)
+
+S2F4,Sublitharénite (grain grossier)
+
+S2D4,Arénite arkosique (grain grossier)
+
+S2A2,Arénite quartzitique (grain fin)
+
+S2F,Sublitharénite
+
+S2E2,Arénite lithique (grain fin)
+
+S2D5,Arénite arkosique (grain très grossier)
+
+S2C5,Arkose (grain très grossier)
+
+S2B1,Subarkose (grain très fin)
+
+S2E1,Arénite lithique (grain très fin)
+
+S2F1,Sublitharénite (grain très fin)
+
+S2E3,Arénite lithique (grain moyen)
+
+S2D2,Arénite arkosique (grain fin)
+
+S2,Arénite
+
+S2B2,Subarkose (grain fin)
+
+S2C,Arkose
+
+S2F5,Sublitharéne (grain très grossier)
+
+S2A,Arénite quartzitique
+
+S2A1,Arénite quartzitique (grain très fin)
+
+S2B,Subarkose
+
+S2B4,Subarkose (grain grossier)
+
+S2C1,Arkose (grain très fin)
+
+S2C2,Arkose (grain fin)
+
+S3A5,Wacke quartzitique (grain très grossier)
+
+S3A,Wacke quartzitique
+
+S3D1,Wacke feldspathique (grain très fin)
+
+S3D2,Wacke feldspathique (grain fin)
+
+S3C2,Wacke arkosique (grain fin)
+
+S3E5,Wacke lithique (grain très grossier)
+
+S3C1,Wacke arkosique (grain très fin)
+
+S3C,Wacke arkosique
+
+S3A1,Wacke quartzitique (grain très fin)
+
+S3A4,Wacke quartzitique (grain grossier)
+
+S3E1,Wacke lithique (grain très fin)
+
+S3E,Wacke lithique
+
+S3D5,Wacke feldspathique (grain très grossier)
+
+S3D3,Wacke feldspathique (grain moyen)
+
+S3C5,Wacke arkosique (grain très grossier)
+
+S3,Wacke
+
+S3D4,Wacke feldspathique (grain grossier)
+
+S3E4,Wacke lithique (grain grossier)
+
+S3E3,Wacke lithique (grain moyen)
+
+S3D,Wacke feldspathique
+
+S3E2,Wacke lithique (grain fin)
+
+S3A2,Wacke quartzitique (grain fin)
+
+S3C4,Wacke arkosique (grain grossier)
+
+S3C3,Wacke arkosique (grain moyen)
+
+S3A3,Wacke quartzitique (grain moyen)
+
+S4A2,Conglomérat monogénique à cailloux
+
+S4F3,Conglomérat polygénique à galets flottants
+
+S4H,Conglomérat intraformationnel à fragments jointifs
+
+S4H4,Conglomérat intraformationnel/blocs jointifs
+
+S4C3,Conglomérat monogénique à galets flottants
+
+S4H3,Conglomérat intraformationnel à galets jointifs
+
+S4D4,Conglomérat polygénique à blocs
+
+S4F1,Conglomérat polygénique à granules flottants
+
+S4G,Conglomérat intraformationnel
+
+S4G2,Conglomérat intraformationnel à cailloux
+
+S4E,Conglomérat polygénique à fragments jointifs
+
+S4I,Conglomérat intraformationnel/fragments flottants
+
+S4,Conglomérat
+
+S4B,Conglomérat monogénique à fragments jointifs
+
+S4D1,Conglomérat polygénique à granules
+
+S4I1,Conglomérat intraformationnel/granules flottants
+
+S4I3,Conglomérat intraformationnel à galets flottants
+
+S4D,Conglomérat polygénique
+
+S4G3,Conglomérat intraformationnel à galets
+
+S4F2,Conglomérat polygénique à cailloux flottants
+
+S4A4,Conglomérat monogénique à blocs
+
+S4B2,Conglomérat monogénique à cailloux jointifs
+
+S4B3,Conglomérat monogénique à galets jointifs
+
+S4C2,Conglomérat monogénique à cailloux flottants
+
+S4D2,Conglomérat polygénique à cailloux
+
+S4E1,Conglomérat polygénique à granules jointifs
+
+S4H2,Conglomérat intraformationnel à cailloux jointifs
+
+S4E4,Conglomérat polygénique à blocs jointifs
+
+S4F4,Conglomérat polygénique à blocs flottants
+
+S4H1,Conglomérat intraformationnel à granules jointifs
+
+S4A1,Conglomérat monogénique à granules
+
+S4A3,Conglomérat monogénique à galets
+
+S4B1,Conglomérat monogénique à granules jointifs
+
+S4E3,Conglomérat polygénique à galets jointifs
+
+S4D3,Conglomérat polygénique à galets
+
+S4F,Conglomérat polygénique à fragments flottants
+
+S4J,Tillite
+
+S4E2,Conglomérat polygénique à cailloux jointifs
+
+S4G1,Conglomérat intraformationnel à granules
+
+S4I2,Conglomérat intraformationnel à cailloux flottants
+
+S4A,Conglomérat monogénique
+
+S4B4,Conglomérat monogénique à blocs jointifs
+
+S4C,Conglomérat monogénique à fragments flottants
+
+S4C4,Conglomérat monogénique à blocs flottants
+
+S4C1,Conglomérat monogénique à granules flottants
+
+S4G4,Conglomérat intraformationnel à blocs
+
+S4I4,Conglomérat intraformationnel à blocs flottants 
+
+S5A2,Brèche monogénique à cailloux
+
+S5I4,Brèche intraformationnel à blocs flottants
+
+S5D1,Brèche polygénique à granules
+
+S5B2,Brèche monogénique à cailloux jointifs
+
+S5B4,Brèche monogénique à blocs jointifs
+
+S5H4,Brèche intraformationnel à blocs jointifs
+
+S5I1,Brèche intraformationnel à granules flottants
+
+S5D,Brèche polygénique
+
+S5H,Brèche intraformationnel à fragments jointifs
+
+S5G2,Brèche intraformationnel à cailloux
+
+S5E1,Brèche polygénique à granules jointifs
+
+S5C4,Brèche monogénique à blocs flottants
+
+S5I2,Brèche intraformationnel à cailloux flottants
+
+S5I,Brèche intraformationnel à fragments flottants
+
+S5C1,Brèche monogénique à granules flottants
+
+S5B1,Brèche monogénique à granules jointifs
+
+S5G,Brèche intraformationnel
+
+S5F2,Brèche polygénique à cailloux flottants
+
+S5B,Brèche monogénique à fragments jointifs
+
+S5A3,Brèche monogénique à galets
+
+S5B3,Brèche monogénique à galets jointifs
+
+S5C3,Brèche monogénique à galets flottants
+
+S5D4,Brèche polygénique à blocs
+
+S5E4,Brèche polygénique à blocs jointifs
+
+S5F1,Brèche polygénique à granules flottants
+
+S5G1,Brèche intraformationnel à granules
+
+S5G3,Brèche intraformationnel à galets
+
+S5H1,Brèche intraformationnel à granules jointifs
+
+S5H3,Brèche intraformationnel à galets jointifs
+
+S5C2,Brèche monogénique à cailloux flottants
+
+S5,Brèche
+
+S5A1,Brèche monogénique à granules
+
+S5F3,Brèche polygénique à galets flottants
+
+S5A4,Brèche monogénique à blocs
+
+S5G4,Brèche intraformationnel à blocs
+
+S5E3,Brèche polygénique à galets jointifs
+
+S5F,Brèche polygénique à fragments flottants
+
+S5H2,Brèche intraformationnel à cailloux jointifs
+
+S5A,Brèche monogénique
+
+S5E,Brèche polygénique à fragments jointifs
+
+S5F4,Brèche polygénique à blocs flottants
+
+S5D3,Brèche polygénique à galets
+
+S5I3,Brèche intraformationnel à galets flottants
+
+S5C,Brèche monogénique à fragments flottants
+
+S5D2,Brèche polygénique à cailloux
+
+S5E2,Brèche polygénique à cailloux jointifs
+
+S6C,Siltslate
+
+S6B,Siltshale
+
+S6I,Clayslate
+
+S6H,Clayshale
+
+S6,Mudrock
+
+S6A,Siltstone
+
+S6E,Mudshale
+
+S6J,Shale
+
+S6D,Mudstone
+
+S6F,Mudslate
+
+S6K,Ardoise
+
+S6G,Claystone
+
+S7J,Bafflestone
+
+S7K,Rudstone
+
+S7A,Calcilutite
+
+S7F,Wackestone
+
+S7G,Packstone
+
+S7I,Boundstone
+
+S7D,Calcirudite
+
+S7E,Mudstone
+
+S7,Calcaire
+
+S7H,Grainstone
+
+S7B,Calcisiltite
+
+S7C,Calcarénite
+
+S8D,Dolorudite
+
+S8B,Dolosiltite
+
+S8,Dolomie
+
+S8C,Dolarénite
+
+S8A,Dololutite
+
+S9D,Formation de fer silicatée
+
+S9B,Formation de fer oxydée
+
+S9A,Formation de fer indéterminée
+
+S9,Formation de fer
+
+S9E,Formation de fer sulfurée
+
+S9C,Formation de fer carbonatée
+
+S10C,Chert silicaté
+
+S10D,Chert sulfuré
+
+S10F,Chert ferrugineux
+
+S10E,Chert graphiteux/carboné
+
+S10A,Chert oxydé
+
+S10B,Chert carbonaté
+
+S10J,Jaspe (Jaspilite)
+
+S10,Chert
+
+S11,Exhalite
+
+S12E,Sulfate
+
+S12D,Gypse
+
+S12B,Sylvite
+
+S12A,Halite
+
+S12,Évaporite
+
+S12C,Anhydrite
+
+S13,Phosphorite
+
+S,Roches sédimentaires
+
+T1D,Pseudotachylite
+
+T1G,Impactite
+
+T1B,Microbrèche de faille
+
+T1A,Brèche de faille
+
+T1C,Gouge de faille
+
+T1F,Brèche d'impact
+
+T1,Cataclasite
+
+T1E,Mylolisthénite
+
+T2E,Blastomylonite
+
+T2C,Ultramylonite
+
+T2A,Protomylonite
+
+T2D,Phyllonite
+
+T2,Mylonite
+
+T2B,Orthomylonite
+
+T3A,Gneiss droit ('straight gneiss')
+
+T3D,Gneiss irrégulier
+
+T3B,Gneiss porphyroclastique
+
+T3C,Gneiss régulier
+
+T4,Brèche tectonique
+
+T4A,Mélange tectonique
+
+T4B,Brèche tectonique à matrice de marbre
+
+T,Tectonites
+
+V1A,Rhyolite à feldspath alcalin
+
+V1,Roches volcaniques felsiques
+
+V1B,Rhyolite
+
+V1E,Trachydacite
+
+V1BP,Rhyolite pantelléritique
+
+V1BC,Rhyolite comenditique
+
+V1C,Rhyodacite
+
+V1D,Dacite
+
+V2GT,Phonolite téphritique
+
+V2F,Trachyandésite
+
+V2E,Latite quartzifère
+
+V2,Roches volcaniques intermédiaires
+
+V2DP,Trachyte pantelléritique
+
+V2LR,Latite foïdifère
+
+V2J,Andésite
+
+V2DR,Trachyte foïdifère
+
+V2FB,Benmoréite
+
+V2FL,Latite
+
+V2C,Trachyte quartzifère
+
+V2B,Trachyte à feldspath alcalin
+
+V2BR,Trachyte foïdifère à feldspath alcalin
+
+V2A,Trachyte quartzifère à feldspath alcalin
+
+V2D,Trachyte
+
+V2DC,Trachyte comenditique
+
+V2G,Phonolite
+
+V3D,Trachybasalte
+
+V3IP,Téphrite phonolitique
+
+V3C,Basalte à quartz
+
+V3DK,Trachybasalte potassique
+
+V3B,Basalte
+
+V3,Roches volcaniques mafiques
+
+V3F,Basalte magnésien (>9 % MgO)
+
+V3G,Trachyandésite basaltique
+
+V3J,Boninite
+
+V3HP,Basanite phonolitique
+
+V3GS,Shoshonite
+
+V3A,Basalte andésitique/andésite basaltique
+
+V3H,Basanite
+
+V3I,Téphrite
+
+V3GM,Mugéarite
+
+V3E,Basalte à olivine
+
+V3DH,Hawaiite
+
+V4,Roches volcaniques ultramafiques/ultrabasiques
+
+V4I,Foïdite
+
+V4IP,Foïdite phonolitique
+
+V4A,Komatiite (>18 % MgO)
+
+V4E,Méiméchite
+
+V4H,Picrite
+
+V4B,Komatiite pyroxénitique
+
+V4G,Picrobasalte
+
+V4D,Komatiite dunitique
+
+V4M,Roche volcanique ultramafique à mélilite
+
+V4F,Mélilitite
+
+V4FO,Mélilitite à olivine
+
+V4IT,Foïdite téphritique
+
+V4C,Komatiite péridotitique
+
+V4IN,Néphélinite
+
+V,Roches volcaniques
+
+XXXX,Incertain
+
+
