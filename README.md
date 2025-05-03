@@ -39,25 +39,35 @@ NRCan: Natural Resources Canada
 ## Inputs
 ### Northeast area
 #### Probability masks
-- training mask: train_prob_mask_bs10_400_code_r3.tif
-- validation mask: val_prob_mask_bs10_400_code_r3.tif
+| Purpose    | File name                              |
+| ---------- | -------------------------------------- |
+| Training   | `train_prob_mask_bs10_400_code_r3.tif` |
+| Validation | `val_prob_mask_bs10_400_code_r3.tif`   |
+
 
 #### Remote sensing layers
-- Multispectral: sentinel2_multispec_east_qc_100m.tif
-- RADAR: ALOS_PALSAR_RADAR_MOSAIC_QC_100m.tif
-- Magnetic: MAG_QC_LOWRES_RESMAG_4269_epsg.tif; MAGRES_QC_LOWRES_AS_4269_epsg.tif; MAGRES_QC_LOWRES_DV1_4269_epsg.tif
-- DEM: alos_elev_east_qc_100m.tif
+| Type          | File(s)                                                                                                         |
+| ------------- | --------------------------------------------------------------------------------------------------------------- |
+| Multispectral | `sentinel2_multispec_east_qc_100m.tif`                                                                          |
+| RADAR         | `ALOS_PALSAR_RADAR_MOSAIC_QC_100m.tif`                                                                          |
+| Magnetic      | `MAG_QC_LOWRES_RESMAG_4269_epsg.tif`; `MAGRES_QC_LOWRES_AS_4269_epsg.tif`; `MAGRES_QC_LOWRES_DV1_4269_epsg.tif` |
+| DEM           | `alos_elev_east_qc_100m.tif`                                                                                    |
 
 ### North area
 #### Probability masks
-- training mask: train_prob_mask_bs10_400_code_r2_north.tif
-- validation mask: val_prob_mask_bs10_400_code_r2_north.tif
+| Purpose    | File name                                    |
+| ---------- | -------------------------------------------- |
+| Training   | `train_prob_mask_bs10_400_code_r2_north.tif` |
+| Validation | `val_prob_mask_bs10_400_code_r2_north.tif`   |
+
 
 #### Remote sensing layers
-- Multispectral: sentinel2_multispec_75m.tif
-- RADAR: ALOS_SAR_NORD_QC_75m.tif
-- Magnetic: MAG_QC_LOWRES_RESMAG_4269_epsg.tif; MAGRES_QC_LOWRES_AS_4269_epsg.tif; MAGRES_QC_LOWRES_DV1_4269_epsg.tif
-- DEM: alos_elevation_75m.tif
+| Type          | File(s)                                                                                                         |
+| ------------- | --------------------------------------------------------------------------------------------------------------- |
+| Multispectral | `sentinel2_multispec_75m.tif`                                                                                   |
+| RADAR         | `ALOS_SAR_NORD_QC_75m.tif`                                                                                      |
+| Magnetic      | `MAG_QC_LOWRES_RESMAG_4269_epsg.tif`; `MAGRES_QC_LOWRES_AS_4269_epsg.tif`; `MAGRES_QC_LOWRES_DV1_4269_epsg.tif` |
+| DEM           | `alos_elevation_75m.tif`                                                                                        |
 
 ## Outputs
 ### Predictions
