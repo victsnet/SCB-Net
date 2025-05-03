@@ -34,7 +34,6 @@ NRCan: Natural Resources Canada
 - translate>=3.6
 - tensorflow>=2.8
 - opencv-python>=4.5
-- pydensecrf @ git+https://github.com/lucasb-eyer/pydensecrf.git
 - pyproj>=3.3
 
 
