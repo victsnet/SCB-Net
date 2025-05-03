@@ -61,7 +61,7 @@ NRCan: Natural Resources Canada
 
 ## Outputs
 ### Predictions
-- 'pred_grid' --> Deterministic predictions
+- pred_grid --> Deterministic predictions
 - pred_grid_mean --> Mean of predictions
 - pred_grid_var --> Variance of predictions
 - cat --> Map of the most probable class per pixel
