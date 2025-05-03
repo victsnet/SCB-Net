@@ -99,45 +99,34 @@ def remove_outliers_iqr(data):
 scaling = 1 # set rescaling factor
 spatial_block_size = 10
 
-# pick sensors
+# select input layers
 use_radar = True
 use_sentinel_2 = True
 use_alos = True
-use_gamma = False
 use_mag = True
-use_pcs = False
 
 paths = []
 path_ext = ''
 subpath = 'northeast_qc/'
-ref_path = subpath+'prob_masks/train_prob_mask_bs10_400_code_r3.tif'
+ref_path = join(subpath, 'prob_masks/train_prob_mask_bs10_400_code_r3.tif')
 
 if use_alos:
-    paths.append(subpath+'ALOS/alos_elev_east_qc_100m.tif')
+    paths.append(join(subpath, 'ALOS/alos_elev_east_qc_100m.tif'))
     path_ext += 'alos_'
     
 if use_radar:
-    paths.append(subpath+'ALOS/ALOS_PALSAR_RADAR_MOSAIC_QC_100m.tif')
+    paths.append(join(subpath, 'ALOS/ALOS_PALSAR_RADAR_MOSAIC_QC_100m.tif'))
     path_ext += 'sar_'
     
 if use_sentinel_2:
-    paths.append(subpath+'SENTINEL2/sentinel2_multispec_east_qc_100m.tif')
+    paths.append(join(subpath, 'SENTINEL2/sentinel2_multispec_east_qc_100m.tif'))
     path_ext += 's2_'
-    
-if use_gamma:
-    paths.append(subpath+'gamma/gamma_kperc_east.tif')
-    paths.append(subpath+'gamma/gamma_th_east.tif')
-    path_ext += 'gamma_'
-    
+
 if use_mag:
-    paths.append(subpath+'mag_fed/MAG_QC_LOWRES_RESMAG_4269_epsg.tif')
-    paths.append(subpath+'mag_fed/MAGRES_QC_LOWRES_AS_4269_epsg.tif')
-    paths.append(subpath+'mag_fed/MAGRES_QC_LOWRES_DV1_4269_epsg.tif')
+    paths.append(join(subpath, 'mag_fed/MAG_QC_LOWRES_RESMAG_4269_epsg.tif'))
+    paths.append(join(subpath, 'mag_fed/MAGRES_QC_LOWRES_AS_4269_epsg.tif'))
+    paths.append(join(subpath, 'mag_fed/MAGRES_QC_LOWRES_DV1_4269_epsg.tif'))
     path_ext += 'mag_'
-    
-if use_pcs:
-    paths.append(subpath+'SAT_PCS/NORTHEAST_SAT_PCS_4269_epsg.tif')
-    path_ext += 'sat_pcs_'
     
 if path_ext.endswith('_'):
     path_ext = path_ext[:-1]
@@ -148,15 +137,12 @@ for n in range(sat_grid.shape[0]):
     sat_grid[n] = remove_outliers_iqr(sat_grid[n])
     sat_grid[n] = cv2.bilateralFilter(np.float32(sat_grid[n]), d=3, sigmaColor=25, sigmaSpace=15)
 
-_, _, pc1_radar = reinterp_xarrays(ref_path, [subpath+'SENTINEL1/pc1_radar.tif'], scaling=scaling)
+_, _, pc1_radar = reinterp_xarrays(ref_path, [join(subpath, 'ALOS/pc1_radar.tif')], scaling=scaling)
 # create water mask
 pc1_radar = cv2.bilateralFilter(pc1_radar[0], d=3, sigmaColor=35, sigmaSpace=35)
 _, wmask = cv2.threshold(pc1_radar, -9., 1, cv2.THRESH_BINARY)
 wmask = np.expand_dims(wmask, -1)
 
-if use_gamma:
-    gamma_mask = np.where(sat_grid[-2:].swapaxes(0, 1).swapaxes(1, 2) == 254.0, 0., 1.)[:, :, :1]
-    
 # hillshade
 hshade = hillshade(sat_grid[0], azimuth=225, angle_altitude=30)
 
@@ -181,14 +167,14 @@ plt.show()
 add_wmask = False
 test_set = False
 
-train_dmask = rioxarray.open_rasterio(join(subpath, f'prob_masks/train_prob_mask_bs10_400_code_r3.tif' ))
+train_dmask = rioxarray.open_rasterio(join(subpath, 'prob_masks/train_prob_mask_bs10_400_code_r3.tif' ))
 prob_mask_training = train_dmask.data.swapaxes(0, 1).swapaxes(1, 2)
 
 if test_set:
-    test_dmask = rioxarray.open_rasterio(join(subpath,f'prob_masks/test_prob_mask_10_400_code_r3.tif' ))
+    test_dmask = rioxarray.open_rasterio(join(subpath, 'prob_masks/test_prob_mask_10_400_code_r3.tif' ))
     prob_mask_testing = test_dmask.data.swapaxes(0, 1).swapaxes(1, 2)
 
-val_dmask = rioxarray.open_rasterio(join(subpath,f'prob_masks/val_prob_mask_bs10_400_code_r3.tif' ))
+val_dmask = rioxarray.open_rasterio(join(subpath, 'prob_masks/val_prob_mask_bs10_400_code_r3.tif' ))
 prob_mask_validation = val_dmask.data.swapaxes(0, 1).swapaxes(1, 2)
 
 prob_mask_training *= wmask
@@ -217,7 +203,11 @@ if use_gamma:
     prob_mask_training *= gamma_mask
     prob_mask_validation *= gamma_mask 
     if test_set:
-        prob_mask_testing *= gamma_mask
+        prob_mask_testing *= gamma_maskif use_gamma:
+    paths.append(subpath+'gamma/gamma_kperc_east.tif')
+    paths.append(subpath+'gamma/gamma_th_east.tif')
+    path_ext += 'gamma_'
+    
     
 prob_mask_training = np.float32(prob_mask_training)
 prob_mask_validation = np.float32(prob_mask_validation)
@@ -370,19 +360,19 @@ else:
 
  #%% load weights
 load_wts = True
-check_point = 'save_models'
+check_point = 'weights'
 model_name = 'U_NET_4_128_alos_sar_s2_mag_2024_10_01'
 weights_path = os.path.join(check_point, model_name, 'second_model_16_2024_10_01.h5')
 if load_wts:
     import pandas as pd
     model.load_weights(weights_path)
-    history_unet = pd.read_csv(os.path.join(check_point, model_name, 'history_16_2024_10_01.csv'))
+    history_unet = pd.read_csv(join(check_point, model_name, 'history_16_2024_10_01.csv'))
     
  #%% load weights
 load_wts = True
-check_point = 'save_models'
+check_point = 'weights/'
 model_name = 'SCB_NET_4_128_alos_sar_s2_mag_None_2024_09_30_scbnet_plus'
-weights_path = os.path.join(check_point, model_name, 'second_model_16_2024_10_05.h5')
+weights_path = join(check_point, model_name, 'second_model_16_2024_10_05.h5')
 if load_wts:
     import pandas as pd
     model.load_weights(weights_path)
