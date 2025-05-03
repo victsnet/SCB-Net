@@ -43,7 +43,7 @@ NRCan: Natural Resources Canada
 | Validation | `val_prob_mask_bs10_400_code_r3.tif`   |
 
 
-| Remote sensing layers|
+#### Remote sensing layers
 | Type          | File(s)                                                                                                         |
 | ------------- | --------------------------------------------------------------------------------------------------------------- |
 | Multispectral | `sentinel2_multispec_east_qc_100m.tif`                                                                          |
