@@ -2,7 +2,7 @@
 
 #%% set working directory
 import os
-os.chdir('/home/silva/Codes-Notebooks/PREDQC/Spyder')
+os.chdir('/SCB-net/')
 
 # %% import modules, functions and libraries
 import tensorflow as tf
@@ -109,8 +109,8 @@ use_pcs = False
 
 paths = []
 path_ext = ''
-subpath = 'data/east_qc/'
-ref_path = subpath+f'prob_masks/train_prob_mask_bs10_400_code_r3.tif'
+subpath = 'northeast_qc/'
+ref_path = subpath+'prob_masks/train_prob_mask_bs10_400_code_r3.tif'
 
 if use_alos:
     paths.append(subpath+'ALOS/alos_elev_east_qc_100m.tif')
