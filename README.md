@@ -17,6 +17,27 @@ INRS: Institut National de la Recherche Scientifique
 
 NRCan: Natural Resources Canada
 
+## Requirements
+- python>=3.7
+- numpy>=1.22
+- pandas>=1.4
+- xarray>=2022.03
+- rioxarray>=0.10
+- rasterio>=1.3
+- geopandas>=0.11
+- shapely>=1.8
+- scipy>=1.8
+- tqdm>=4.64
+- matplotlib>=3.5
+- scikit-learn>=1.1
+- textdistance>=4.2
+- translate>=3.6
+- tensorflow>=2.8
+- opencv-python>=4.5
+- pydensecrf @ git+https://github.com/lucasb-eyer/pydensecrf.git
+- pyproj>=3.3
+
+
 ### License
 
 This project is licensed under the [Creative Commons Attribution 4.0 International License](LICENSE) - see the [LICENSE](LICENSE) file for details.
