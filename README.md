@@ -58,6 +58,7 @@ NRCan: Natural Resources Canada
 | `pred_grid_var`  | Variance of predictions                          |
 | `cat`            | Map of the most probable class per pixel         |
 
+## Access to data 
 [Link to remotely sensed data, probability masks, and weights of the models.](https://drive.google.com/drive/folders/1XKIUqlInuHOdva_IWbaQ_Ynezm4p_Fcd?usp=sharing)
 
 ## Requirements
