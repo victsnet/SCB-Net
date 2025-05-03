@@ -7,8 +7,6 @@ Spatially Constrained Bayesian Network (SCB-Net): An Approach to Obtaining Field
 ![output](https://github.com/victsnet/SCB-Net/assets/53713685/81b74534-f222-4854-8d4e-ff265c06011d)
 ### (instability = uncertain predictions)
 
-[Link to remotely sensed data, probability masks, and weights of the models.](https://drive.google.com/drive/folders/1XKIUqlInuHOdva_IWbaQ_Ynezm4p_Fcd?usp=drive_link)
-
 Authors: Victor S. Santos (INRS & NRCan), Erwan Gloaguen (INRS), and Shiva Tirdad (NRCan).
 
 [Link to Preprint - ArXiv](https://arxiv.org/abs/2403.20195)
@@ -35,6 +33,20 @@ NRCan: Natural Resources Canada
 - tensorflow>=2.8
 - opencv-python>=4.5
 - pyproj>=3.3
+
+[Link to remotely sensed data, probability masks, and weights of the models.](https://drive.google.com/drive/folders/1XKIUqlInuHOdva_IWbaQ_Ynezm4p_Fcd?usp=drive_link)
+
+## Inputs
+### Probability masks
+#### Northeast area
+- training mask: train_prob_mask_bs10_400_code_r3.tif
+- validation mask: val_prob_mask_bs10_400_code_r3.tif
+
+#### North area
+- training mask: train_prob_mask_bs10_400_code_r2_north.tif
+- validation mask: val_prob_mask_bs10_400_code_r2_north.tif
+
+## Outputs
 
 
 ### License
