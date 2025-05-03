@@ -34,8 +34,6 @@ NRCan: Natural Resources Canada
 - opencv-python>=4.5
 - pyproj>=3.3
 
-[Link to remotely sensed data, probability masks, and weights of the models.](https://drive.google.com/drive/folders/1XKIUqlInuHOdva_IWbaQ_Ynezm4p_Fcd?usp=drive_link)
-
 ## Inputs
 ### Northeast area
 #### Probability masks
@@ -78,6 +76,9 @@ NRCan: Natural Resources Canada
 | `pred_grid_mean` | Mean of predictions                              |
 | `pred_grid_var`  | Variance of predictions                          |
 | `cat`            | Map of the most probable class per pixel         |
+
+
+[Link to remotely sensed data, probability masks, and weights of the models.](https://drive.google.com/drive/folders/1XKIUqlInuHOdva_IWbaQ_Ynezm4p_Fcd?usp=sharing)
 
 ### License
 
