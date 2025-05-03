@@ -54,12 +54,17 @@ NRCan: Natural Resources Canada
 - validation mask: val_prob_mask_bs10_400_code_r2_north.tif
 
 #### Remote sensing layers
-- Multispectral: sentinel2_multispec_east_qc_100m.tif
-- RADAR: ALOS_PALSAR_RADAR_MOSAIC_QC_100m.tif
+- Multispectral: sentinel2_multispec_75m.tif
+- RADAR: ALOS_SAR_NORD_QC_75m.tif
 - Magnetic: MAG_QC_LOWRES_RESMAG_4269_epsg.tif; MAGRES_QC_LOWRES_AS_4269_epsg.tif; MAGRES_QC_LOWRES_DV1_4269_epsg.tif
-- DEM: alos_elev_east_qc_100m.tif
+- DEM: alos_elevation_75m.tif
 
 ## Outputs
+### Predictions
+- pred_grid --> Deterministic predictions
+- pred_grid_mean --> Mean of predictions
+- pred_grid_var --> Variance of predictions
+- cat --> Map of the most probable class per pixel
 
 
 ### License
