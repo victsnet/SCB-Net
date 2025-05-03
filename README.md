@@ -15,25 +15,6 @@ INRS: Institut National de la Recherche Scientifique
 
 NRCan: Natural Resources Canada
 
-## Requirements
-- python>=3.7
-- numpy>=1.22
-- pandas>=1.4
-- xarray>=2022.03
-- rioxarray>=0.10
-- rasterio>=1.3
-- geopandas>=0.11
-- shapely>=1.8
-- scipy>=1.8
-- tqdm>=4.64
-- matplotlib>=3.5
-- scikit-learn>=1.1
-- textdistance>=4.2
-- translate>=3.6
-- tensorflow>=2.8
-- opencv-python>=4.5
-- pyproj>=3.3
-
 ## Inputs
 ### Northeast area
 #### Probability masks
@@ -77,8 +58,26 @@ NRCan: Natural Resources Canada
 | `pred_grid_var`  | Variance of predictions                          |
 | `cat`            | Map of the most probable class per pixel         |
 
-
 [Link to remotely sensed data, probability masks, and weights of the models.](https://drive.google.com/drive/folders/1XKIUqlInuHOdva_IWbaQ_Ynezm4p_Fcd?usp=sharing)
+
+## Requirements
+- python>=3.7
+- numpy>=1.22
+- pandas>=1.4
+- xarray>=2022.03
+- rioxarray>=0.10
+- rasterio>=1.3
+- geopandas>=0.11
+- shapely>=1.8
+- scipy>=1.8
+- tqdm>=4.64
+- matplotlib>=3.5
+- scikit-learn>=1.1
+- textdistance>=4.2
+- translate>=3.6
+- tensorflow>=2.8
+- opencv-python>=4.5
+- pyproj>=3.3
 
 ### License
 
