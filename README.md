@@ -37,14 +37,27 @@ NRCan: Natural Resources Canada
 [Link to remotely sensed data, probability masks, and weights of the models.](https://drive.google.com/drive/folders/1XKIUqlInuHOdva_IWbaQ_Ynezm4p_Fcd?usp=drive_link)
 
 ## Inputs
-### Probability masks
-#### Northeast area
+### Northeast area
+#### Probability masks
 - training mask: train_prob_mask_bs10_400_code_r3.tif
 - validation mask: val_prob_mask_bs10_400_code_r3.tif
 
-#### North area
+#### Remote sensing layers
+- Multispectral: sentinel2_multispec_east_qc_100m.tif
+- RADAR: ALOS_PALSAR_RADAR_MOSAIC_QC_100m.tif
+- Magnetic: MAG_QC_LOWRES_RESMAG_4269_epsg.tif; MAGRES_QC_LOWRES_AS_4269_epsg.tif; MAGRES_QC_LOWRES_DV1_4269_epsg.tif
+- DEM: alos_elev_east_qc_100m.tif
+
+### North area
+#### Probability masks
 - training mask: train_prob_mask_bs10_400_code_r2_north.tif
 - validation mask: val_prob_mask_bs10_400_code_r2_north.tif
+
+#### Remote sensing layers
+- Multispectral: sentinel2_multispec_east_qc_100m.tif
+- RADAR: ALOS_PALSAR_RADAR_MOSAIC_QC_100m.tif
+- Magnetic: MAG_QC_LOWRES_RESMAG_4269_epsg.tif; MAGRES_QC_LOWRES_AS_4269_epsg.tif; MAGRES_QC_LOWRES_DV1_4269_epsg.tif
+- DEM: alos_elev_east_qc_100m.tif
 
 ## Outputs
 
